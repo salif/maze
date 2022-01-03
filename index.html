@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="map.js"></script>
+		<script src="game.js"></script>
+		<script>
+			window.onload = function () {
+				var gameColors = new GameColors();
+				var game = new Game(
+					new GameMap(1, 1),
+					new GameSettings(48, 20, gameColors.GREEN, gameColors.RED)
+				);
+				game.start();
+			};
+		</script>
+	</head>
+
+	<body></body>
+</html>

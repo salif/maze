@@ -1,0 +1,33 @@
+body {
+	background-color: darkgray;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.line {
+	position: absolute;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.line_h {
+	width: 2vw;
+	height: 2px;
+}
+.line_v {
+	width: 2px;
+	height: 2vw;
+}
+
+.player {
+	box-sizing: border-box;
+	position: absolute;
+	border: 0;
+	border-radius: 50%;
+	padding: 0;
+	margin: 0.5vw;
+	width: 1vw;
+	height: 1vw;
+}
