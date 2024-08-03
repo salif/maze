@@ -58,17 +58,13 @@ class GameMap {
 		document.onkeydown = function (e) {
 			switch (e.key) {
 				case "ArrowUp":
-					t.movePlayer(player, GameNavigation.UP)
-					return false
+					return t.movePlayer(player, GameNavigation.UP)
 				case "ArrowRight":
-					t.movePlayer(player, GameNavigation.RIGHT)
-					return false
+					return t.movePlayer(player, GameNavigation.RIGHT)
 				case "ArrowDown":
-					t.movePlayer(player, GameNavigation.DOWN)
-					return false
+					return t.movePlayer(player, GameNavigation.DOWN)
 				case "ArrowLeft":
-					t.movePlayer(player, GameNavigation.LEFT)
-					return false
+					return t.movePlayer(player, GameNavigation.LEFT)
 			}
 			return true
 		}

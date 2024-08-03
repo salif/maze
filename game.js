@@ -11,7 +11,7 @@ class Game {
 	}
 
 	start() {
-		this.drawLines(this.settings.width * this.settings.height * 1.5)
+		this.drawLines(this.settings.width * this.settings.height * 2)
 		this.map.drawPlayer(this.mainPlayer)
 		this.map.setPlayerMove(this.mainPlayer)
 	}
